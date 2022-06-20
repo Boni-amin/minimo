@@ -1,0 +1,281 @@
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.container {
+		width: 960px;
+	}
+	.logo {
+		width: 13%;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container {
+		width: 720px;
+	}
+	.logo {
+		width: 14%;
+	}
+	.menu {
+		width: 81%;
+	}
+	.menu ul li a {
+		font-size: 15px;
+		margin: 0 25px;
+	}
+	.sub_container {
+		padding: 0 50px;
+	}
+	.sub_container h1 {
+    	margin: 14px 0 20px 0;
+    	font-size: 25px;
+	}
+	.more_button {
+    	margin: 40px auto 40px auto;
+	}
+	.more_button button {
+		font-size: 16px;
+		width: 120px;
+		height: 36px;
+	}
+	.blog {
+    	padding-bottom: 0px;
+	}
+	.news_latter {
+		padding: 60px 0 67px;
+	}
+	.single_box {
+		margin-top: 35px;
+	}
+	.about {
+    	padding: 0 0 45px 0;
+	}
+	.lode_more {
+		margin: -6px 0 28px;
+	}
+	.fotter-container {
+		margin:  42px 0 15px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.header {
+		padding: 20px 0 20px;
+	}
+	.container {
+		width: 540px;
+	}
+	.logo {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.logo img {
+  	 	width: 90px;
+	}
+	.menu {
+		width: 100%;
+		float: none;
+		margin-top: 17px;
+	}
+	.menu ul {
+		float: none;
+		padding: 0;
+		width: 461px;
+		margin: auto;
+	}
+	.menu ul li a {
+		font-size: 15px;
+		margin: 0 20px;
+	}
+	.sub_container {
+		padding: 0 50px;
+	}
+	.single_box {
+		width: 100%;
+		float: none;
+		margin-top: 60px;
+	}
+	.single_box:nth-child(2n) {
+    	margin-left: 0;
+	}
+	.sub_container h1 {
+    	margin: 12px 0 20px 0;
+	}
+	.single_box h2 {
+    	margin: -5px 0 -13px 0;
+	}
+	.single_box:nth-child(1) {
+		margin-top: 10px;
+	}
+	.about {
+    	padding: 0 0 30px 0;
+	}
+	.news_latter {
+    	padding: 60px 0 67px;
+	}
+	.more_button {
+    	margin: 40px auto 40px auto;
+	}
+	.more_button button {
+		font-size: 16px;
+		width: 110px;
+		height: 32px;
+	}
+	.sub_container {
+		padding: 0;
+	}
+	.fotter {
+		padding: 0;
+	}
+	.fotter_left, .fotter_right {
+    	width: 230px;
+	}
+	.fotter_left ul li a, .fotter_right ul li a {
+		font-size: 15px;
+	}
+	.lode_more {
+		margin: 26px 0 8px;
+	}
+	.fotter-container {
+		margin:  42px 0 20px;
+	}
+	.sub_container {
+		margin: 37px 5px 20px;
+	}
+	
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.header {
+		padding: 15px 0 15px;
+	}
+	.container {
+		width: 100%;
+	}
+	.logo {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.logo img {
+  	 	width: 90px;
+	}
+	.menu {
+		width: 100%;
+		float: none;
+	}
+	.menu ul {
+		overflow: hidden;
+		width: 352px;
+		margin: 0 auto;
+		float: none;
+		padding: 0;
+	}
+	ul li {
+		padding: 0 7px;
+	}
+	.menu ul li a {
+		font-size: 13px;
+		margin: 0;
+	}
+	.sub_container {
+		padding: 0 20px;
+		margin: 40px 0 20px 0;
+	}
+	.sub_container h1 {
+		margin: 0;
+	}
+	.uban_light {
+		margin-top: 17px;
+		margin-bottom: 10px;
+	}
+	.h1_title {
+    font-size: 22px;
+		margin: 0;
+	}
+	.blog_text {
+    	font-size: 15px;
+	}
+	.single_box {
+		width: 100%;
+		float: none;
+		margin-top: 50px;
+	}
+	.sub_container p:last-child {
+    	margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.single_box:nth-child(1) {
+		margin-top: 10px;
+	}
+	.single_box:nth-child(2n) {
+    margin-left: 0;
+	}
+	.single_box h2 {
+    	margin: 0px 0 -5px 0;
+	}
+	.form_wrapper {
+		width: 280px;
+	}
+	.form_area input {
+		width: 227px;
+	}
+	
+	.about {
+    	padding: 0 0 10px 0;
+	}
+	.news_latter {
+    	padding: 60px 0 67px;
+	}
+	.blog {
+    	padding-bottom: 5px;
+	}
+	.more_button {
+    	margin: 15px auto 35px auto;
+	}
+	.more_button button {
+		font-size: 16px;
+		width: 100px;
+		height: 30px;
+	}
+	.sub_container {
+		padding: 0 12px;;
+	}
+	.fotter {
+		padding: 6px;
+	}
+	.fotter_left, .fotter_right {
+		width: 100%;
+		float: none;
+	}
+	.fotter_left ul li a, .fotter_right ul li a {
+		font-size: 16px;
+		margin-right: 15px;
+	}
+	.fotter_right {
+		display: none;
+	}
+	.fotter_left {
+		display: flex;
+		justify-content: center;
+	}
+	.lode_more {
+		margin: 44px 0 22px;
+	}
+	.fotter-container {
+		margin:  42px 0 20px;
+	}
+	.sub_container {
+		margin: 20px 5px 14px;
+	}
+}
+
+@media (max-width: 379.98px){
+	ul li {
+		padding: 0 5px;
+	}
+}
